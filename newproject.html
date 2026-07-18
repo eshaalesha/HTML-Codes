@@ -1,52 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <style>
+<title>My Science Lab</title>
 
-body {
-    color : lightgrey
-}
-h1 {
-color : pink ;
-} 
+<meta charset="utf-8">
 
-h2 {
-    color : purple;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-.detail {
-    color : green;
-    font-weight: bold;
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-#my card {
-    background-color: lightcyan;
-}
+<style>
 
-    </style>
+body { background-color: #f4fff4; font-family: Arial, sans-serif; }
+
+.jumbotron { background-color: #e6f9ec; border-left: 6px solid #FF5A43; }
+
+.jumbotron h1 { color: #FF5A43; }
+
+.section-title { color: #FF5A43; margin-top: 30px; margin-bottom: 15px; }
+
+p { font-weight: bold; margin-bottom: 5px; }
+
+</style>
+
 </head>
 <body>
-    <h1>my color card</h1>
-
-    <p>hi! this is my ver own webpage</p>
-
-    <div id="my card">
-
-<h2>About Me</h2>
-
-<p class="detail">my name is eshaal</p>
-<p class="detail">my favourite color is black</p>
-<p class="detail">my favourite subject is english</p>
-<p class="detail">my favourite food is pasta</p>
-
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container"
+        <h1>my science lab</h1>
+        <P class="lead">welcome to the lab ! here are the experiments
+            runing, the discoveries made, and how far each research project has come.
+        </P>
+        
+<button class="btn btn-primary">Chemistry</button>
+<button class="btn btn-success">Biology</button>
+<button class="btn btn-warning">Physics</button>
+<button class="btn btn-danger">Astronomy</button>
+    </div>
     </div>
 
-    <h2>my favourite things</h2>
-    <p>my favourite animal is cat</p>
-    <p>my favourite sort is cricket</p>
-    <p>my favourite movie is lion king</p>
+    <div class="container">
+        <h2 class="section-title"> experiments complated <span class="badge badge-danger">4</span></h2>
 
+        <P>Chemistry <span class="badge badge-primary">7 experiments</span></P>
+        <P>Biology <span class="badge badge-primary">5 experiments</span></P>
+        <P>Physics <span class="badge badge-primary">3 experiments</span></P>
+        <P>astronomy <span class="badge badge-primary">4 experiments</span></P>
+
+
+        <h2 class="section=title">reserach progress</h2>
+        <P>Chemistry</P>
+<div class="progress mb-3">
+<div class="progress-bar bg-primary" style="width: 85%">85%</div>
+</div>
+
+<P>biology</P>
+<div class="progress mb-3"></div>
+<div class="progress-bar bg-warning " style="width: 70%">70%</div>
+
+<P>Physics</P>
+<div class="progress mb-3"></div>
+<div class="progress-bar bg-success" style="width: 55%">55%</div>
+
+<P>Astronomy</P>
+<div class="progress mb-3"></div>
+<div class="progress-bar bg-danger" style="width: 40%">40%</div>
+
+</div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

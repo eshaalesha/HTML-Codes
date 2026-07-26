@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page-header">
-        <h1>my space page</h1>
-        <p>welcome to my corner of the galaxy!</h3>
-    </div>
+    <h1>Javascript variables</h1>
+    <P>sum of to number</P>
+    <h3 id="result"></h3>
 
-<div class="fact-card">
-    <h2>fun space fact</h2>
-    <p>The sun is so big that one million Earths could fit inside it</p>
-</div>
+    <script>
 
-<div class="star"></div>
-<p class="footer text">made by____________</p>
+        var num1 = 3;
+        var num2 = 2;
+        var sum = num1 + num2;
+        document.getElementById("result").innerHTML = "the total sum is " + sum + " this is sum";
+
+    </script>
 </body>
 </html>
